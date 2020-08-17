@@ -39,7 +39,9 @@ packages:
 # - git: https://github.com/commercialhaskell/stack.git
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
-# extra-deps: []
+extra-deps: 
+- ghc-lib-parser-8.10.2.20200808@sha256:f51fb0d0ca61c56083837cf51cc436a763f90a0353bfb2a0facf0fc1ab4cd796,8709
+
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
